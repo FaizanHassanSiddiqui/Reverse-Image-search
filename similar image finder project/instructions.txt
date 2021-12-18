@@ -1,0 +1,17 @@
+IMPORTANT: Please don't delete the images_base folder. You can empty it if you want to delete
+	   the pictures from your machine but don't delete the folder itself. It should be there always.
+
+
+About files:
+
+1. images_downloader.py: it downloads the images from any website. You need to change the url inside the file.
+
+2. embeddings_extractor.py: extract embeddings from those images. And creates the database of those embeddings.
+
+3. similar_images_finder.py: finds the similar images that the system has seen before to the new image provided.
+
+
+
+Note:
+
+Please also do not delete the .json files and .npy file also to keep the database. Otherwise memory will be lost.
